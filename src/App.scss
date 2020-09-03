@@ -1,0 +1,13 @@
+$spacer: 5rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body, html, #root, .switch-wrapper, .switch-wrapper > div {
+  height: 100%;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center; 
+}
